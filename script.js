@@ -1,0 +1,1 @@
+// Inspiration: http://www.canstockphoto.com/sticky-note-with-word-annual-leave-on-monitor-38886354.html

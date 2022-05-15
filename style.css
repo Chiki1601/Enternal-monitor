@@ -1,0 +1,250 @@
+/* Colour Palette */
+body {
+  background: #64949f;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  height: 320px;
+  width: 700px;
+  top: 20px;
+  background: none;
+}
+
+.monitor {
+  position: absolute;
+  height: 220px;
+  width: 400px;
+  left: 150px;
+  top: 20px;
+  background: #000;
+  border-bottom: 35px solid #cecfd1;
+  border-radius: 7px;
+}
+
+.monitor:before {
+  position: absolute;
+  content: "";
+  height: 180px;
+  width: 360px;
+  left: 20px;
+  top: 20px;
+  background: #191919;
+}
+
+.monitor:after {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 192px;
+  top: 230px;
+  border-radius: 50%;
+  background: #a5a6a8;
+}
+
+.base {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  left: 150px;
+  top: 255px;
+  background: linear-gradient(#a5a6a8 0%, #cecfd1 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.bottom {
+  position: absolute;
+  height: 10px;
+  width: 120px;
+  left: 140px;
+  top: 290px;
+  border-radius: 5px;
+  background: #cecfd1;
+  box-shadow: 1px 5px 10px #a5a6a8;
+}
+
+.sticky {
+  position: absolute;
+  height: 60px;
+  width: 70px;
+  left: 360px;
+  top: 100px;
+  background: #fdff72;
+  border-top: 10px solid #FFE63B;
+  font-family: "Nothing you could do", cursive;
+  font-size: 1em;
+  -webkit-transform: rotate(-15deg);
+}
+
+.tie {
+  position: absolute;
+  height: 250px;
+  width: 50px;
+  left: 200px;
+  top: 60px;
+  background: repeating-linear-gradient(45deg, #8b3737, #8b3737 7px, #C74F4F 7px, #C74F4F 15px);
+  -webkit-clip-path: polygon(70% 0, 100% 85%, 50% 100%, 0 85%, 30% 0);
+  clip-path: polygon(70% 0, 100% 85%, 50% 100%, 0 85%, 30% 0);
+}
+
+.knot {
+  position: absolute;
+  height: 25px;
+  width: 30px;
+  left: 210px;
+  top: 35px;
+  background: repeating-linear-gradient(-45deg, #8b3737, #8b3737 7px, #C74F4F 7px, #C74F4F 15px);
+  border-radius: 7px;
+  z-index: 1;
+}
+
+.left {
+  position: absolute;
+  height: 40px;
+  width: 10px;
+  left: 210px;
+  top: 10px;
+  background: #C74F4F;
+  -webkit-transform: rotate(-30deg);
+}
+
+.right {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 10px;
+  left: 230px;
+  top: 10px;
+  background: #C74F4F;
+  -webkit-transform: rotate(30deg);
+}
+
+.cover {
+  position: absolute;
+  height: 10px;
+  width: 50px;
+  left: 200px;
+  top: 10px;
+  background: #64949f;
+}
+
+.mug {
+  position: absolute;
+  height: 75px;
+  width: 60px;
+  left: 565px;
+  top: 240px;
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(to left, #cecfd1, #fff);
+  border-bottom: 5px solid #cecfd1;
+  z-index: 1;
+}
+
+.handle {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 10px;
+  left: 612px;
+  top: 250px;
+  border-radius: 10px;
+  border: 10px solid #cecfd1;
+}
+
+.pot {
+  position: absolute;
+  height: 50px;
+  width: 65px;
+  left: 30px;
+  top: 270px;
+  background: #7A6B69;
+  border-radius: 2px 2px 20px 20px;
+  z-index: 2;
+}
+
+.pot:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 65px;
+  top: 5px;
+  background: #6e615e;
+}
+
+.pot:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 65px;
+  top: 12px;
+  background: #6e615e;
+}
+
+.succulent {
+  position: absolute;
+  height: 45px;
+  width: 10px;
+  left: 53px;
+  top: 230px;
+  border-radius: 100px 0 0 100px;
+  background: #486c5b;
+  -webkit-transform: rotate(0deg);
+}
+
+.succulent:before {
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 7px;
+  left: 10px;
+  top: 8px;
+  border-radius: 0 100px 100px 0;
+  background: #507966;
+}
+
+.succulent-2 {
+  position: absolute;
+  height: 45px;
+  width: 15px;
+  left: 65px;
+  top: 245px;
+  border-radius: 100px 0 0 100px;
+  background: #486c5b;
+  -webkit-transform: rotate(20deg);
+}
+
+.succulent-2:before {
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 5px;
+  left: 15px;
+  top: 5px;
+  border-radius: 0 100px 0 100px;
+  background: #507966;
+}
+
+.succulent-3 {
+  position: absolute;
+  height: 45px;
+  width: 7px;
+  left: 40px;
+  top: 245px;
+  border-radius: 100px 0 0 100px;
+  background: #507966;
+  -webkit-transform: rotate(-20deg);
+}
+
+.succulent-3:before {
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 10px;
+  left: 7px;
+  top: 5px;
+  border-radius: 0 100px 0 100px;
+  background: #486c5b;
+}
